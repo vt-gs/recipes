@@ -17,12 +17,14 @@
 # Boston, MA 02110-1301, USA.
 #
 
-depends: planck-dsp
 category: common
-source: git://git@hume-gitlab.ncr.vt.edu:ground-station/gr-vtgs.git
+depends:
+- planck-dsp
 gitbranch: master
 inherit: cmake
-install {
-    make install
-    make install
-}
+install: 'make install
+
+  make install
+
+  '
+source: git+git@hume-gitlab.ncr.vt.edu:ground-station/gr-vtgs.git
