@@ -26,4 +26,4 @@ install: 'make install
   make install
 
   '
-source: git+git@hume-gitlab.ncr.vt.edu:ground-station/planck.git
+source: git+git@gitlab.hume.vt.edu:ground-station/planck.git
