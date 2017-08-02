@@ -27,4 +27,4 @@ install: 'make install
   make install
 
   '
-source: git+git@gitlab.hume.vt.edu:ground-station/gr-vtgs.git
+source: git+https://github.com/vt-gs/gr-vtgs.git
